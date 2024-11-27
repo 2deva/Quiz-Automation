@@ -1,5 +1,6 @@
 # Quiz-Automation
-Automate quiz answering using ChatGPT API
+Automate quiz answering using ChatGPT API.
+
 This file is a Python script that uses FastAPI to create a web server for handling image uploads, processes the images to extract text using Tesseract OCR, and then sends the extracted text to OpenAI's GPT-4 model for analysis. It also includes functionality to capture screenshots and display the results in a Tkinter dialog box.
 
 Summary of Key Functions:
@@ -10,6 +11,9 @@ Summary of Key Functions:
 5) display_answer(answer): Displays the answer in a Tkinter dialog box.
 
 setup_screenshot_hotkey(): Sets up the hotkey listener.
+
 start_fastapi(): Starts the FastAPI server.
+
 signal_handler(sig, frame): Handles Ctrl+C to exit gracefully.
+
 This script integrates image processing, web server, and GUI functionalities to provide a complete solution for capturing screenshots, extracting text, and getting detailed answers using GPT-4.
